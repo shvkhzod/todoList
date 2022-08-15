@@ -26,7 +26,7 @@ app.post("/todos", async(req,res) => {
 })
 
 //get all todo
-
+//new challenge
 app.get("/todos", async(req, res)=> {
     try{
         const allTodos = await pool.query("SELECT * FROM todo");
